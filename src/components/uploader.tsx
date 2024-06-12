@@ -4,7 +4,7 @@ import File from "./file";
 
 const Uploader = () => {
   return (
-    <div className="bg-clr-base-100 min-w-[34.375rem] h-[30.25rem] px-5 rounded-[.625rem] shadow-dark-shadow">
+    <div className="bg-clr-base-100 min-w-[34.375rem] h-[30.25rem] px-5 rounded-[.625rem] shadow-dark-shadow relative -top-[8%]">
       <header className="flex flex-col gap-1 pt-5">
         <div className="flex gap-[.375rem] items-center">
           <UploadIcon />
