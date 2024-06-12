@@ -6,7 +6,7 @@ const DropZone = () => {
       <div className="text-center">
         <PaperClipIcon className="mx-auto" />
         <p className="text-sm">Drag and Drop your files here</p>
-        <p className="text-sm text-clr-accent-100">Click to browse</p>
+        <p className="text-xs text-clr-accent-100">Click to browse</p>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const Uploader = () => {
           <UploadIcon />
           <h1 className="text-white text-xl font-medium ">Upload files</h1>
         </div>
-        <p className="font-medium">
+        <p className="font-medium text-[.875rem]">
           Attachments that have been uploaded as part of the project.
         </p>
       </header>

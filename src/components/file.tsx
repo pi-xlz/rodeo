@@ -6,9 +6,11 @@ const File = () => {
       <div className="flex items-center gap-1">
         <PlayIcon />
         <Dot />
-        <p className="text-clr-text-300 font-medium">Sukuna-Wailing.mp4</p>
+        <p className="text-clr-text-300 font-medium text-[.875rem]">
+          Sukuna-Wailing.mp4
+        </p>
         <Dot />
-        <span>2.5MB</span>
+        <span className="text-[.875rem]">2.5MB</span>
       </div>
       {/* ACTIONS */}
       <div className="flex items-center gap-3">
